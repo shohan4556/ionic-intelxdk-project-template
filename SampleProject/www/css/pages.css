@@ -1,4 +1,6 @@
-/*text overly on image*/
+
+
+/*text style*/
 P{
     font-weight: bold;
     font-size: 16px;
@@ -24,7 +26,6 @@ P{
   -o-background-size: cover;
   background-size: cover;
 }
-
 
 /* remove all underline on link*/
 a{
