@@ -1,0 +1,32 @@
+/*text overly on image*/
+P{
+    font-weight: bold;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+/*grid layout*/
+.home-container {
+     display: -webkit-flex;
+     -webkit-flex-direction: column;
+     height: 100%;
+}
+.home-container > .row {
+     -webkit-flex: 1;
+}
+
+
+/* adding background image */
+.scroll-content{
+ background: url('../img/BG_02.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* remove all underline on link*/
+a{
+    text-decoration: none;
+}
