@@ -7,11 +7,12 @@
     <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="lib/ionic/ionic-material/ionic.material.css">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
-
+    <script src="lib/ionic/ionic-material/ionic.material.js"></script>
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
@@ -21,14 +22,26 @@
 
 <body ng-app="starter">
 
-    <ion-pane>
-        <ion-header-bar class="bar-calm">
-            <h1 class="title">Ionic Blank Starter</h1>
-        </ion-header-bar>
-        <ion-content>
-            <p>This is a demo text.</p>
-        </ion-content>
-    </ion-pane>
+
+    <ion-content style="background: url(img/BG_01.jpeg) center; background-size: cover; class=" welcome " scroll="false ">
+
+        <div class="hero no-header flat ">
+            <div class="content ">
+                <div class="app-icon "></div>
+            </div>
+        </div>
+        
+                                     
+        <div class="button-full">
+            <button class="button button-full button-assertive FLAT "><h2 class="title">Start</h2></button>
+        </div>
+            
+        <div class="bar bar-footer bar-balanced ">
+            <div class="title ">Credit goes here</div>
+        </div>                                                                               
+                                                                                       
+    </ion-content>
+
 
 </body>
 
